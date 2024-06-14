@@ -1,0 +1,322 @@
+.navbar-brand-custom {
+/* Example color: tomato */
+  justify-content:flex-start;
+  align-items: flex-start;
+  
+}
+background-section-bio.katie-section {
+
+  background-image: url('../assets/img/lao2.png');
+
+}
+
+header.masthead {
+  z-index: 1000;
+  background-image: url('../assets/img/lao4.png');
+  position: sticky;
+  top: 0; /* Add this line */
+
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  color: black;
+}
+header.masthead .masthead-content .masthead-heading {
+  font-size: 2rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+  h2 .h2 {
+    color:white;
+  }
+
+ h5, h4, .h4, h3, .h3,  h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Baskerville", serif;
+    font-weight: 800;
+    line-height: 1.0;
+    color:antiquewhite !important;
+  }
+  .footer{
+    height: 121px;
+    text-align:center;
+    margin-bottom: 0px; 
+    /* background: linear-gradient(to bottom,rgba(211,161,159,1) 50%,#233D3D 50%); */
+    background:#034f5a
+    ;
+    font-family:serif;
+  
+    display: flex; 
+    flex-direction: column; 
+    vertical-align:bottom;
+  
+}
+.foot {
+  margin-bottom: 40px;
+}
+.footer-logo {
+  max-width: 1012px;
+  margin: 0 auto;
+  margin-bottom: -105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+    flex: 1;
+  }
+  body {
+    margin: 0;
+    padding:0;
+    background-color:#cebaa3;
+  }
+  
+section {
+  width: 100% ;
+  min-height: 200px;
+  z-index:1;
+}
+
+.masthead-content {
+  position: relative;
+  z-index: 2;
+}
+.custom-img {
+  width: 50%; 
+  margin-top: -200px; 
+  max-width: 900px;
+  max-width: 100%; 
+  height: auto; 
+}
+
+.sunset{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.custom-text-a {
+  color:antiquewhite;
+   /* Adjust this value to move the text up or down */
+  font-size: 20px;
+}
+.custom-text-p {
+  color:antiquewhite;
+ /* Adjust this value to move the text up or down */
+  font-size: 18px;
+}
+
+
+
+#background-section {
+  /* background-image: url('/static/assets/img/Focus Areas.png'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px; /* Adjust the height as needed */
+  position: relative; /* This will allow you to position the text on top */
+  color:black;
+  background-color:#cebaa3;
+  
+  
+}
+
+.custom-img-container {
+  display: flex;
+   justify-content:flex-end; 
+}
+
+
+
+.moon {
+
+  display: flex;
+  justify-content:start; 
+ align-items:flex-start;  
+ padding-left: 17%;
+ padding-top: 34%;
+ max-height: 97%;
+ max-width: 88%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow:1;
+  margin-top: 100px;
+  margin-right: 10px;
+  margin-left:10px;
+  max-width: 50%; 
+}
+
+.hello {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-top: -500px;
+  margin-right: 0px;
+  margin-left:10px;
+  max-width: 50%; 
+  align-self: flex-start; 
+}
+
+.bio-img{
+
+    display: flex;
+     justify-content:start; 
+    align-items:flex-start;  
+    padding-left: 17%;
+    padding-top: 34%;
+    max-height: 91%;
+    max-width: 87%;
+  }
+
+
+
+.images {
+  padding: 50px; 
+}
+
+.textimage{
+  padding-top: 50px;
+}
+.content-section {
+  position: relative;
+  z-index: 1;
+  /* Other styling for your section */
+}
+.btn-primary {
+  background-color: #b14929;
+  border-color: #b14929; /* Adjust the border color if needed */
+}
+.btn-primary:hover {
+  background-color: #834620;
+  border-color: #834620;
+}
+.center-link {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100px; /* Adjust the height as needed */
+}
+
+#connect {
+  color: #d6a1a1;
+  font-family: Bookman, URW Bookman L, serif;
+
+
+}
+h5.mb-4.display-5#reach {
+  color: #88a9c3; /* Replace with your desired color value */
+}
+
+.form-container {
+  text-align: left !important;
+}
+.leva {
+  padding:10%;
+  object-fit:scale-down;
+}
+
+.contact {
+  color:antiquewhite;
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+.school-section {
+  color: black;
+}
+.form-control {
+  background-color:#233D3D;
+  color:antiquewhite;
+  
+}
+
+.placeholder {
+  color:#d6a1a1;
+}
+
+.mid-bar{
+  height: 100px;
+}
+
+
+@media (max-width: 768px) {
+  .form-container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #background-section,
+  #background-section-bio {
+
+    padding-top: 2rem; /* Adjust the top padding */
+    padding-bottom: 2rem; /* Adjust the bottom padding */
+  }
+}
+@media (max-width: 768px) {
+  .bio,
+  .hello {
+    margin-top: 0;
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .custom-img {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .custom-text {
+    margin-top: 0;
+    font-size: 16px;
+  }
+
+  .custom-text-p {
+    font-size: 18px;
+  }
+
+  .custom-text-a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  header.masthead {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  header.masthead .masthead-content .masthead-heading,
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+.row gx-0 {
+  overflow:auto;
+}
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  list-style-type: none;  /* Remove bullet points */
+  padding: 0;             /* Remove default padding */
+  margin: 0;              /* Remove default margin */
+  text-align: left; 
+}
