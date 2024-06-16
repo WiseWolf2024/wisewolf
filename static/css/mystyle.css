@@ -262,6 +262,8 @@ h5.mb-4.display-5#reach {
   .form-container {
     max-width: 100%;
   }
+  
+
 }
 @media (max-width: 768px) {
   #background-section,
@@ -276,6 +278,13 @@ h5.mb-4.display-5#reach {
   .hello {
     margin-top: 0;
     max-width: 100%;
+  }
+  .navbar-custom .navbar-brand {
+    
+    font-size: .8rem;
+    font-weight: 300;
+  
+    
   }
 }
 @media (max-width: 768px) {
@@ -301,6 +310,7 @@ h5.mb-4.display-5#reach {
   header.masthead {
     padding-top: 2rem;
     padding-bottom: 3rem;
+    min-height: 7rem;
   }
 
   header.masthead .masthead-content .masthead-heading,
@@ -319,4 +329,9 @@ h5.mb-4.display-5#reach {
   padding: 0;             /* Remove default padding */
   margin: 0;              /* Remove default margin */
   text-align: left; 
+}
+
+.text-left {
+  text-align: left;
+  padding-bottom: 10px;
 }
